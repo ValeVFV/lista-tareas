@@ -1,0 +1,89 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f5f0ff;
+    color: #4a007e; 
+  }
+  
+  h1 {
+    text-align: center;
+    color: #6a00b3;
+  }
+  
+
+  form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    padding: 10px;
+    border: 2px solid #b380d6;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #4a007e;
+  }
+  
+  input[type="text"]:focus,
+  input[type="date"]:focus {
+    outline: none;
+    border-color: #6a00b3;
+    box-shadow: 0 0 5px #b380d6;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6a00b3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4a007e;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #e8dff5;
+    border: 2px solid #b380d6;
+    border-radius: 5px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #a386b7;
+  }
+  
+  button.completeBtn {
+    background-color: #8e44ad;
+  }
+  
+  button.completeBtn:hover {
+    background-color: #6a00b3;
+  }
+  
+  button.deleteBtn {
+    background-color: #e74c3c;
+  }
+  
+  button.deleteBtn:hover {
+    background-color: #c0392b;
+  }
+  
